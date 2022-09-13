@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="praticajavafx.FXMLDocumentController">
+    <children>
+        <Button fx:id="oClique" layoutX="139.0" layoutY="106.0" onAction="#aAçao" text="Clique Aqui" textFill="#fc0e0e">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Label fx:id="aMensagem" layoutY="42.0" text="A mensagem está aqui" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
